@@ -18,4 +18,4 @@ EXPOSE 5432 22
 
 VOLUME /gpdata
 
-CMD service sshd start
+CMD systemctl start sshd.service
