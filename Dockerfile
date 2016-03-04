@@ -17,5 +17,3 @@ RUN echo root:pivotal | chpasswd \
 EXPOSE 5432 22
 
 VOLUME /gpdata
-
-CMD systemctl start sshd.service
